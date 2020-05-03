@@ -780,3 +780,8 @@ QTextCodec* SourceData::detectEncoding(const char* buf, qint64 size, qint64& ski
     }
     return nullptr;
 }
+
+SourceData::FileData::~FileData()
+{
+    reset();
+}

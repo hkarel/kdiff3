@@ -62,8 +62,8 @@
 
 bool KDiff3App::m_bTripleDiff = false;
 
-boost::signals2::signal<bool (), or> KDiff3App::allowCut;
-boost::signals2::signal<bool (), and> KDiff3App::shouldContinue;
+boost::signals2::signal<bool (), or_> KDiff3App::allowCut;
+boost::signals2::signal<bool (), and_> KDiff3App::shouldContinue;
 
 /*
     To be a constexpr the QLatin1String constructor must be given the size of the string explicitly.

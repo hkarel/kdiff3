@@ -23,6 +23,7 @@ mem.log.*
 massif.*
 callgrind.*
 perf.data*
+*.qbs.user
 
 # from kdiff3
 *.BACKUP.*

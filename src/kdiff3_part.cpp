@@ -21,7 +21,7 @@
 #include <KMessageBox>
 #include <KParts/MainWindow>
 
-#include <version.h>
+//#include <version.h>
 
 KAboutData KDiff3Part::createAboutData()
 {
@@ -39,7 +39,7 @@ KAboutData KDiff3Part::createAboutData()
     return aboutData;
 }
 
-K_PLUGIN_FACTORY(KDiff3PartFactory, registerPlugin<KDiff3Part>();)
+//K_PLUGIN_FACTORY(KDiff3PartFactory, registerPlugin<KDiff3Part>();)
 
 KDiff3Part::KDiff3Part(QWidget* parentWidget, QObject* parent, const QVariantList& args)
     : KParts::ReadWritePart(parent)
@@ -264,4 +264,4 @@ bool KDiff3Part::saveFile()
     return false; // Not implemented
 }
 
-#include "kdiff3_part.moc"
+//#include "kdiff3_part.moc"

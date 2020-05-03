@@ -6,7 +6,7 @@
  * SPDX-License-Identifier: GPL-2.0-or-later
 */
 #include "kdiff3_shell.h"
-#include "version.h"
+//#include "version.h"
 
 #include "Logging.h"
 

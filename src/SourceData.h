@@ -90,7 +90,7 @@ public Q_SLOTS:
         e_LineEndStyle m_eLineEndStyle = eLineEndStyleUndefined;
 
       public:
-        ~FileData() { reset(); }
+        ~FileData();
 
         bool readFile(FileAccess& file);
         bool readFile(const QString& filename);
